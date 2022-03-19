@@ -6,11 +6,15 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.inventory.InventoryOpenEvent;
+import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * @author KleeSup
  * @version 1.0
  * Class created on 19.03.2022
+ *
+ * A listener registered by {@link de.kleesup.minecraft.cloverpluginutilities.CloverPluginUtilities#register(JavaPlugin)} to handle
+ * GUI interactions. This listener is needs to be registered in order to make GUIs work.
  */
 public class GuiListener implements Listener {
 

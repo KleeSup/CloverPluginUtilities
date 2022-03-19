@@ -10,7 +10,6 @@ import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 
 import java.util.HashMap;
-import java.util.Map;
 import java.util.function.Consumer;
 
 /**
