@@ -24,6 +24,6 @@ then add the dependency
 <dependency>
     <groupId>com.github.KleeSup</groupId>
     <artifactId>CloverUtilities</artifactId>
-    <version>Release tag</version>
+    <version>PreRelease 1.0</version>
 </dependency>
 ```
