@@ -1,0 +1,7 @@
+name: CloverPluginUtilities
+version: '${project.version}'
+main: de.kleesup.minecraft.cloverpluginutilities.CloverPluginUtilities
+api-version: 1.18
+authors: [KleeSup]
+description: A library for spigot plugins
+website: https://www.fiverr.com/kleesup
