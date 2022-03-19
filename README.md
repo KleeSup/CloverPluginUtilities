@@ -8,3 +8,22 @@ The following features are currently intended:
 - Backend: Backend interfaces and implementations for YamlFiles etc
 - Cooldown: Cooldown-manager class i.e. for kit-cooldowns
 - GUIs: A GUI-package with several classes that help you to easily create GUIs and have events etc registered. Also a paged-GUI type is supported
+- RecipeBuilder: Builder-classes for crafting- and villagers-recipes
+
+## Maven implementation
+
+Add the following repository:
+```
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+then add the dependency
+```
+<dependency>
+    <groupId>com.github.KleeSup</groupId>
+    <artifactId>CloverUtilities</artifactId>
+    <version>PreRelease 1.0</version>
+</dependency>
+```
