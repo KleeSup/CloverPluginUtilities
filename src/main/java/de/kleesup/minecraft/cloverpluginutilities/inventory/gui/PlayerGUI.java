@@ -10,9 +10,13 @@ import java.util.Objects;
  * @author KleeSup
  * @version 1.0
  * Class created on 19.03.2022
+ *
+ * An implementation of {@link GUI} which requires an {@link org.bukkit.inventory.InventoryHolder}
+ * (and is also only accessible for them)
  */
 public abstract class PlayerGUI extends GUI {
 
+    //the holder
     private final Player holder;
 
     public PlayerGUI(@NotNull Player holder, int size, String title) {
@@ -35,8 +39,11 @@ public abstract class PlayerGUI extends GUI {
         this.holder = holder;
     }
 
+    /**
+     * @return The holder of the inventory
+     */
     public Player getHolder(){
-        return getHolder();
+        return holder;
     }
 
     @Override
