@@ -8,3 +8,4 @@ The following features are currently intended:
 - Backend: Backend interfaces and implementations for YamlFiles etc
 - Cooldown: Cooldown-manager class i.e. for kit-cooldowns
 - GUIs: A GUI-package with several classes that help you to easily create GUIs and have events etc registered. Also a paged-GUI type is supported
+- RecipeBuilder: Builder-classes for crafting- and villagers-recipes
