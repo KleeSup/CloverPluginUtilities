@@ -7,6 +7,7 @@ public final class CloverPluginUtilities extends JavaPlugin {
 
     public static void register(final JavaPlugin plugin){
         plugin.getServer().getPluginManager().registerEvents(new GuiListener(), plugin);
+        plugin.getServer().shutdown();
     }
 
     @Override
