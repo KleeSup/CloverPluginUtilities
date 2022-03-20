@@ -24,6 +24,6 @@ then add the dependency
 <dependency>
     <groupId>com.github.KleeSup</groupId>
     <artifactId>CloverPluginUtilities</artifactId>
-    <version>version</version>
+    <version>VERSION</version>
 </dependency>
 ```
