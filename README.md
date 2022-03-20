@@ -23,7 +23,7 @@ then add the dependency
 ```
 <dependency>
     <groupId>com.github.KleeSup</groupId>
-    <artifactId>CloverUtilities</artifactId>
-    <version>PreRelease 1.0</version>
+    <artifactId>CloverPluginUtilities</artifactId>
+    <version>[![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)]</version>
 </dependency>
 ```
