@@ -10,9 +10,8 @@ The following features are currently intended:
 - GUIs: A GUI-package with several classes that help you to easily create GUIs and have events etc registered. Also a paged-GUI type is supported
 - RecipeBuilder: Builder-classes for crafting- and villagers-recipes
 
-## Maven implementation
+## Maven implementation ![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)
 
-![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)
 Add the following repository:
 ```
 <repository>
