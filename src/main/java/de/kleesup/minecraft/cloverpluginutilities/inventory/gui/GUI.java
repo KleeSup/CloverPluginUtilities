@@ -56,12 +56,12 @@ public abstract class GUI {
     protected Consumer<InventoryCloseEvent> closeEvent;
 
     public GUI(final Player holder, final int size, final String title){
-        this.inventory = Bukkit.createInventory(holder,size, Component.text(title));
+        this.inventory = Bukkit.createInventory(holder,size, title);
         registerGUI(this);
         buildInventory();
     }
     public GUI(final Player holder, final InventoryType type, final String title){
-        this.inventory = Bukkit.createInventory(holder, type, Component.text(title));
+        this.inventory = Bukkit.createInventory(holder, type, title);
         registerGUI(this);
         buildInventory();
     }

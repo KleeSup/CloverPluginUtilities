@@ -13,14 +13,14 @@ The following features are currently intended:
 ## Maven implementation ![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)
 
 Add the following repository:
-```
+```xml
 <repository>
     <id>jitpack.io</id>
     <url>https://jitpack.io</url>
 </repository>
 ```
 then add the dependency
-```
+```xml
 <dependency>
     <groupId>com.github.KleeSup</groupId>
     <artifactId>CloverPluginUtilities</artifactId>
