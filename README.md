@@ -10,7 +10,7 @@ The following features are currently intended:
 - GUIs: A GUI-package with several classes that help you to easily create GUIs and have events etc registered. Also a paged-GUI type is supported
 - RecipeBuilder: Builder-classes for crafting- and villagers-recipes
 
-## Maven implementation
+## Maven implementation ![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)
 
 Add the following repository:
 ```
@@ -24,6 +24,6 @@ then add the dependency
 <dependency>
     <groupId>com.github.KleeSup</groupId>
     <artifactId>CloverPluginUtilities</artifactId>
-    <version>[![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)]</version>
+    <version>VERSION</version>
 </dependency>
 ```
