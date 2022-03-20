@@ -12,6 +12,7 @@ The following features are currently intended:
 
 ## Maven implementation
 
+[![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)]
 Add the following repository:
 ```
 <repository>
