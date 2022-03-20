@@ -25,6 +25,6 @@ then add the dependency
 <dependency>
     <groupId>com.github.KleeSup</groupId>
     <artifactId>CloverPluginUtilities</artifactId>
-    <version>[![Release](https://jitpack.io/v/KleeSup/CloverPluginUtilities.svg)]</version>
+    <version>version</version>
 </dependency>
 ```
