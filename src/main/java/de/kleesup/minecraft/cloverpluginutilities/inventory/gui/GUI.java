@@ -1,7 +1,7 @@
 package de.kleesup.minecraft.cloverpluginutilities.inventory.gui;
 
-import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;
@@ -108,7 +108,9 @@ public abstract class GUI {
      * Closes the GUI for all viewers
      */
     public void close(){
-        inventory.close();
+        for(HumanEntity viewer : inventory.getViewers()){
+            viewer.closeInventory();
+        }
     }
 
     //register events

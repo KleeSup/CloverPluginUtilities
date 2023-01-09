@@ -2,7 +2,6 @@ package de.kleesup.minecraft.cloverpluginutilities.inventory;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.material.MaterialData;
 
@@ -26,7 +25,7 @@ public class ItemBuilder {
         this(material,1,(byte) 0);
     }
     public ItemBuilder(final ItemStack itemStack){
-        if(itemStack == null)throw new NullPointerException("ItemStack cannot be null!");
+        if(itemStack == null)throw new IllegalArgumentException("ItemStack cannot be null!");
         this.is = itemStack;
     }
 
