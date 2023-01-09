@@ -11,7 +11,7 @@ public abstract class KeyedFileBackend<K, V> implements KeyedBackend<K,V>  {
 
     protected File file;
     public KeyedFileBackend(final File file) {
-        if(file == null)throw new NullPointerException("File cannot be null!");
+        if(file == null)throw new IllegalArgumentException("File cannot be null!");
         this.file = file;
     }
     public KeyedFileBackend(final String file) {

@@ -13,9 +13,14 @@ import java.io.IOException;
 public class YamlBackend extends KeyedFileBackend<String, Object> {
 
     private final YamlConfiguration configuration;
-    public YamlBackend(File file) {
+    public YamlBackend(File file, YamlConfiguration configuration) {
         super(file);
-        this.configuration = YamlConfiguration.loadConfiguration(file);
+        if(configuration == null)throw new IllegalArgumentException("Configuration cannot be null!");
+        this.configuration = configuration;
+    }
+
+    public YamlBackend(File file){
+        this(file, YamlConfiguration.loadConfiguration(file));
     }
 
     @Override
